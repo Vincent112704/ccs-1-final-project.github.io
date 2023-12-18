@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+        <link href="login.css" rel="stylesheet" media="screen">
+    </head>
+    
+    <body>
+
+        <div class="wrapper">
+            <h2>Login</h2>
+            <div class="form-box">
+                <form name="myform">
+                    <div class="input-box">
+                        <input type="text" name="user">
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="pass">
+                        <label>Password</label>
+                    </div>
+                    <div class="btn">
+                        <button class="btn" onclick="test(myform)">Login</button>
+                    </div>
+                    <div class="login-register">
+                        <p> Don't have an account? <a href="#" class="register-link"> Register</a></p>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <script src="login.js"></script>
+        
+    </body>
+</html>

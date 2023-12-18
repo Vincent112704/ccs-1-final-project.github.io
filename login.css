@@ -1,0 +1,92 @@
+* {
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('loginBG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*contains whole login box*/
+
+.wrapper {
+    display: flex;
+    width: 360px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    flex-direction: column;
+    box-shadow: 0 0 30px rgba(255, 255, 255, .5);
+    border: 2px solid rgba(255, 255, 255, .5);
+    background: transparent;
+}
+.form-box h2 {
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+}
+
+.wrapper .form-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+
+
+.input-box label {
+    position: absolute;
+    top: 5%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.wrapper .form-box .btn {
+    width: 100%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+    
+.login-register a {
+    text-decoration: none;
+    color: #162938;
+    font-weight: 600;
+}
+
